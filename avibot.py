@@ -16,7 +16,6 @@ import discord.utils
 import pyimgflip
 
 BOT_PREFIX = ("~", ">")
-TOKEN = "YourToken"
 
 client = Bot(command_prefix=BOT_PREFIX)
 client.remove_command("help")
@@ -738,4 +737,4 @@ async def announcenewsglobal(ctx,channelid,*,reportmsg):
         return await client.say("Hey! Only the owner , `avib` , can use this command. Sorry!")
 
 
-client.run(TOKEN)
+client.run(YOUR_TOKEN_TOKEN)
